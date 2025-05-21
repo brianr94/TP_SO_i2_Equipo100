@@ -13,3 +13,7 @@ a. Para actualizar el repositorio:
 git merge upstream/main
 
 b. Si puede solamente si gamma le pasa el link de su repositorio.
+
+c. Si puede solamente si alfa le pasa el link de su repositorio.
+
+d. No, no se pierden, sino que se fusionan los archivos existentes con los nuevos.
