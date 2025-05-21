@@ -1,3 +1,15 @@
 Antón Kevin 
 Josefina Alcaraz 
 Brian Riani
+
+Respuestas:
+a. Para actualizar el repositorio:
+
+1. Clona tu fork,
+2. Agrega el repositorio original como remoto: git remote add upstream https://github.com/kevinanton01/TP_SO_i2_Equipo100.git,
+3. Verifica los remotos: git remote -v,
+4. Trae los cambios del repositorio original: git fetch upstream,
+5. Fusionar con rama actual: git checkout main,
+git merge upstream/main
+
+b. Si puede solamente si gamma le pasa el link de su repositorio.
