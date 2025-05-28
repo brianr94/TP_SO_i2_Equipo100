@@ -1,0 +1,99 @@
+Antón Kevin 
+Josefina Alcaraz 
+Brian Riani
+
+Respuestas:
+a. Para actualizar el repositorio:
+
+1. Clona tu fork,
+2. Agrega el repositorio original como remoto: git remote add upstream https://github.com/kevinanton01/TP_SO_i2_Equipo100.git,
+3. Verifica los remotos: git remote -v,
+4. Trae los cambios del repositorio original: git fetch upstream,
+5. Fusionar con rama actual: git checkout main,
+git merge upstream/main
+
+b. Si puede solamente si gamma le pasa el link de su repositorio.
+
+c. Si puede solamente si alfa le pasa el link de su repositorio.
+
+d. No, no se pierden, sino que se fusionan los archivos existentes con los nuevos.
+
+e. 1. Kevin Anton: 
+git clone https://github.com/kevinanton01/TP_SO_i2_Equipo100.git
+git add .
+git commit "Create fork.txt"
+git push
+
+2. Josefina Alcaraz: 
+git clone https://github.com/JosefinaAlcaraz/TP_SO_i2_Equipo100.git
+git add .
+git commit "Datos: gamma"
+git push
+
+3. Brian Riani: 
+git clone https://github.com/brianr94/TP_SO_i2_Equipo100.git
+git add .
+git commit "(nombre con el que lo subio)"
+git push
+
+4. Kevin Anton: 
+git clone https://github.com/kevinanton01/TP_SO_i2_Equipo100.git
+git add .
+git commit "Agrego archivo NuevoDato"
+git push
+
+5. Josefina Alcaraz: 
+git remote add upstream https://github.com/kevinanton01/TP_SO_i2_Equipo100.git
+git remote -v
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+6. Brian Riani: 
+git remote add upstream https://github.com/kevinanton01/TP_SO_i2_Equipo100.git
+git remote -v
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+7. Josefina Alcaraz: 
+git remote -v
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+git add .
+git commit "respuestas a y b"
+git push
+
+8.  Kevin Anton: 
+git remote add upstream https://github.com/JosefinaAlcaraz/TP_SO_i2_Equipo100.git
+git remote -v
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+git add .
+git commit "respuestas c y d"
+git push
+
+9. Brian Riani: 
+git remote -v
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+git add .
+git commit "respuesta d"
+git push
+
+10. Kevin Anton: 
+git remote add upstream https://github.com/brianr94/TP_SO_i2_Equipo100.git
+git remote -v
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+git add .
+git commit "final"
+git push

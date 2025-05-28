@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Brian Riani , 192.168.0.8, 11:47
+=======
+Josefina Alcaraz ip: 192.168.0.5 hora: 11:39
+>>>>>>> upstream/main
